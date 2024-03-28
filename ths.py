@@ -31,15 +31,15 @@ ugen=[]
 ugen = []
 #Mozilla/5.0 (iPhone; CPU iPhone OS 11_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 [FBAN/FBIOS;FBAV/166.0.0.53.95;FBBV/101310068;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/Mobilis;FBID/phone;FBLC/fr_FR;FBOP/45;FBRV/0]
 for xd in range(10000):
-    a='Mozilla/5.0 (iPhone; CPU iPhone OS'
+    a='Mozilla/5.0 (Windows NT'
     b=random.choice(['8','9', '10', '11', '12', '13', '14', '15'])
-    c=' like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E216 [FBAN/FBIOS;FBAV/'
+    c='WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
     d=random.randrange(95, 166)
     e='0'
     f=random.randrange(3000, 6000)
     g=random.randrange(20, 100)
-    h='FBBV/101310068;FBDV/iPhone6,1;FBMD/iPhone;FBSN/iOS;FBSV/11.3;FBSS/2;FBCR/Mobilis;FBID/phone;FBLC/fr_FR;FBOP/45;FBRV/0'
-    ua=f'{a} {b};{c}{d}.{e}.{f}{h}'
+    h='Safari/537.36'
+    ua=f'{a} {b}){c}{d}.{e}.{f}.{g}{h}'
     ugen.append(ua)
 A = '\x1b[1;97m' 
 B = '\033[1;32m' 
